@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity
         tabLayout.addTab(tabLayout.newTab().setText("Highlights"));
         tabLayout.addTab(tabLayout.newTab().setText("Reach Radio"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
-        tabLayout.setTabTextColors(Color.rgb(205,201,201),Color.WHITE);
+        tabLayout.setTabTextColors(Color.rgb(220,220,220),Color.WHITE);
         final ViewPager viewPager = (ViewPager)findViewById(R.id.viewpager);
         final PagerAdapter adapter = new PagerAdapter(getSupportFragmentManager(),tabLayout.getTabCount());
         viewPager.setAdapter(adapter);

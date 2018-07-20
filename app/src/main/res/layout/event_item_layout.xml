@@ -57,10 +57,11 @@
             <ImageView
                 android:id="@+id/expandicon"
                 android:layout_width="wrap_content"
+                android:backgroundTint="#c6c1c1"
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@+id/eventImage"
                 android:layout_alignParentEnd="true"
-                android:src="@drawable/arrowdown" />
+                android:src="@drawable/ic_arrow_drop_down_circle_black_24dp" />
             <LinearLayout
                 android:orientation="vertical"
                 android:id="@+id/moreinfo"
@@ -113,7 +114,6 @@
                 android:paddingHorizontal="4dp"
                 android:layout_marginLeft="4dp"
                 android:text="Register" />
-
             <TextView
                 android:id="@+id/knowmore"
                 android:layout_width="wrap_content"
@@ -121,7 +121,7 @@
                 android:layout_alignBottom="@+id/eventImage"
                 android:layout_toStartOf="@+id/expandicon"
                 android:text="show  more"
-                android:textColor="@color/textcolor" />
+                android:textColor="#C6C1C1" />
         </RelativeLayout>
 
     </LinearLayout>

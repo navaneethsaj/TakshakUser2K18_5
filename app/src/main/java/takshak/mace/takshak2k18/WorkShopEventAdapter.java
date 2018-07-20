@@ -79,7 +79,7 @@ public class WorkShopEventAdapter extends ArrayAdapter<EventObject> {
             @Override
             public void onClick(View view) {
                 if (!expanded){
-                    expandImg.setImageResource(R.drawable.arrowup);
+                    expandImg.setImageResource(R.drawable.ic_arrow_drop_up_black_24dp);
                     knowmore.setText("show less");
                     linearLayout.setVisibility(View.VISIBLE);
                     imageView.getLayoutParams().width =(int) (200 * getContext().getResources().getDisplayMetrics().density);
@@ -87,7 +87,7 @@ public class WorkShopEventAdapter extends ArrayAdapter<EventObject> {
                     expanded = true;
 
                 }else {
-                    expandImg.setImageResource(R.drawable.arrowdown);
+                    expandImg.setImageResource(R.drawable.ic_arrow_drop_down_circle_black_24dp);
                     linearLayout.setVisibility(View.GONE);
                     knowmore.setText("show more");
                     imageView.getLayoutParams().width =(int) (110 * getContext().getResources().getDisplayMetrics().density);
