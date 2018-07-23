@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        toolbar.setBackgroundColor(Color.rgb(255,127,80));
+        toolbar.setBackgroundColor(Color.rgb(0,0,0));
         toolbar.setTitleTextColor(Color.WHITE);
         TabLayout tabLayout = (TabLayout)findViewById(R.id.tablayout);
         tabLayout.addTab(tabLayout.newTab().setText("Home"));

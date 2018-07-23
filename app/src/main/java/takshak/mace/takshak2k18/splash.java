@@ -24,10 +24,8 @@ public class splash extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                // Start your application main_activity
                 Intent i = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(i);
-
                 // Close this activity
                 finish();
             }
