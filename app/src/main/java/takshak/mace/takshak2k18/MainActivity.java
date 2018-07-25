@@ -134,9 +134,9 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.wall) {
+            startActivity(new Intent(getApplicationContext(),takshalwall.class));
 
-            return true;
         }
         if (id == R.id.notify){
             goto_notification();
@@ -205,8 +205,11 @@ public class MainActivity extends AppCompatActivity
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/OfficialTakshak"));
                 startActivity(intent);
             }
+        }else if (id == R.id.Takshakwall){
+            startActivity(new Intent(getApplicationContext(),takshalwall.class));
 
         }
+
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
